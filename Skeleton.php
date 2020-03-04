@@ -67,6 +67,7 @@ class Skeleton extends Module
 					'class_name' => 'Skeleton',
 					'active' => true,
 					'parent_class_name' => 'SELL',
+					'icon' => 'public',
 					'childs' => array(
 						array(
 							'name' => 'Skeleton Menu 1',
@@ -108,6 +109,7 @@ class Skeleton extends Module
 			$tabObj->active = (isset($tab['active'])) ? $tab['active'] : false;
 			$tabObj->class_name = $tab['class_name'];
 			$tabObj->name = array();
+			$tabObj->icon = (isset($tab['icon']) ? $tab['icon'] : "");
 			foreach (Language::getLanguages() as $lang) {
 				$tabObj->name[$lang['id_lang']] = $tab['name'];
 			}
@@ -268,7 +270,7 @@ class Skeleton extends Module
     */
     public function hookBackOfficeHeader()
     {
-        
+        $this->context->controller->addCss($this->local_path.'views/css/back.css');
     }
 
     /**
@@ -278,4 +280,5 @@ class Skeleton extends Module
     {
         
     }
+
 }
