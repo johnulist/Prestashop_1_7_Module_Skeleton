@@ -12,4 +12,4 @@ ___
 
 
 ##### Author : 
-[`NOUREDDINE ERRAMY`](mailto:noureddine.erramy@gmail.com)
+[`NOUREDDINE ERRAMY (noureddine.erramy@decathlon.com)`](mailto:noureddine.erramy@decathlon.com)
