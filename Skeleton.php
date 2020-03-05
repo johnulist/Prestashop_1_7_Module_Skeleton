@@ -73,13 +73,6 @@ class Skeleton extends Module
 							'name' => 'Skeleton Menu 1',
 							'class_name' => 'Skeleton1',
 							'active' => true,
-							'childs' => array(
-								array(
-									'name' => 'Skeleton Menu 1-1',
-									'class_name' => 'Skeleton11',
-									'active' => true,
-								),
-							)
 						),
 						array(
 							'name' => 'Skeleton Menu 2',

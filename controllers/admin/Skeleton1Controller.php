@@ -8,7 +8,7 @@ if (!defined('_PS_VERSION_')) {
 
 
 
-class SkeletonController extends AdminController{
+class Skeleton1Controller extends AdminController{
 	
 	public function __construct(){
 		$this->bootstrap = true;
@@ -35,14 +35,12 @@ class SkeletonController extends AdminController{
 		// $this->createTabs($this->config_module['tabs']);
 		// $this->removeTabs($this->config_module['tabs']);
 		// $tabId = (int) Tab::getIdFromClassName('SELL');
-		echo "ok";
-		exit;
-
+		
 		$smarty = $this->context->smarty;
 		
 		$smarty->assign('orders',array());//ExportModel::getExports());
 
-		$this->content=$this->createTemplate('Skeleton.tpl')->fetch();
+		$this->content=$this->createTemplate('Skeleton1.tpl')->fetch();
 		parent::initContent();
 		
 	}

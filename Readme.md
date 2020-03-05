@@ -9,3 +9,7 @@ ___
 ### Links
 
 [List of prestashop 1.7 icons ](https://www.prestasoo.com/blog/prestashop-1-7-icons-list.html)
+
+
+##### Author : 
+[`NOUREDDINE ERRAMY`](mailto:noureddine.erramy@gmail.com)
